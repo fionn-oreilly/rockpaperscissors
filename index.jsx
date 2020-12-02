@@ -1,3 +1,8 @@
+import "babel-polyfill";
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 function Square(props) {
   if (props.value == "Rock") {
     return (
